@@ -83,11 +83,11 @@ i {
 padding: 8px;
 }
 
-.btn-primary {
+#search-button {
   background-color: #ffb84d !important;
   border-color: #ffff99 !important;
 }
-.btn-primary:hover {
+#search-button:hover {
   background-color: #ff6600 !important;
 }
 #search {
@@ -146,3 +146,53 @@ header {
   font-weight: lighter;
   font-style: italic;
 }
+#progetto {
+  background-color: #ffb84d;
+  text-align: center;
+  font-family: "Lucida Handwriting" !important;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #990033;
+  padding: 10px;
+}
+#progetto .col-5 {
+  padding: 10px;
+}
+#desc-progetto {
+  text-align: justify;
+  font-family: "Georgia";
+  font-size: 18px;
+  font-weight: lighter;
+  color: black;
+  line-height: 150%;
+  padding-left: 20px;
+}
+#explore-button {
+  padding: 10px !important;
+  background-color: #990033 !important;
+  border-color: #ffff99 !important;
+  float: none;
+  font-family: "Georgia";
+  font-size: 15px;
+  width: 50%;
+}
+#explore-button:hover {
+background-color:#ffb84d !important;
+}
+.container-fluid {
+  background-color: #ffffcc;
+}
+.container-fluid h2 {
+  padding: 20px;
+  font-family: "Lucida Handwriting";
+  font-size: 25px;
+  font-weight: bold;
+  color: #990033;
+  text-align: center;
+}
+.container-fluid .col-6 {
+  padding top: 10px;
+  text-align: center;
+  padding-left: 50px;
+}
+
