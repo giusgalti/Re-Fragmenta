@@ -179,7 +179,7 @@ header {
 #explore-button:hover {
 background-color:#ffb84d !important;
 }
-.container-fluid {
+#view {
   background-color: #ffffcc;
 }
 .container-fluid h2 {
@@ -190,9 +190,38 @@ background-color:#ffb84d !important;
   color: #990033;
   text-align: center;
 }
-.container-fluid .col-6 {
+#view .col-6 {
   padding top: 10px;
   text-align: center;
   padding-left: 50px;
 }
+.cards {
+  background-color:#990033 !important;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-position: absolute;
+}
+
+#percorsi {
+  color: white !important;
+}
+.card-title {
+  font-family: "Lucida Handwriting";
+}
+.card-body {
+  font-family: "Georgia";
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px;
+  padding-top: 50px;
+  line-height: 120%;
+}
+.card {
+  width: 90%;
+}
+#footer {
+  background-color: #ff6600 !important;
+}
+
 
