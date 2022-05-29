@@ -28,7 +28,7 @@
 				</div>
 				<div id="search"><form class="d-flex">
 			        <input class="form-control me-2" type="text" placeholder="Ricerca libera...">
-			        <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button></form>	  
+			        <button class="btn btn-primary" type="button" id="search-button"><i class="bi bi-search"></i></button></form>	  
 				</div>
 			</div>
 		</nav>
@@ -61,7 +61,7 @@
 				      <img src="img/nuove-scoperte.jpg" class="d-block w-100" alt="Nuove-scoperte">
 				      <div class="carousel-caption d-none d-md-block">
 				        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Musicali">Nuove scoperte</button>
-				        <p class="caption">Esplora i nuovi frammenti ritrovati</p>
+				        <p class="caption">Esplora i nuovi frammenti censiti</p>
 				        <p class="img-description">Giustiniano, Digesto con glossa di Accursio. Fondo Rev. Fabbrica di S.Pietro 120.65, fine XIV secolo</p>
 				      </div>
 				    </div>
@@ -78,6 +78,34 @@
 			</div></span>
 		</header>
 		<section>
+			<div class="container-fluid" id="progetto">
+				<div class="row">
+					<h2 id="progetto"><i class="bi bi-info-circle">Il progetto</h2></i>
+					<div class="col-1"></div>
+					<div class="col-5"><iframe width="600" height="415" src="https://www.youtube-nocookie.com/embed/dUBqmtRqi3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="col-5">
+						<p id="desc-progetto">Il sito <em>Re-Fragmenta</em> si propone di realizzare una collezione dei frammenti pergamenacei di riuso, rinvenuti durante il censimento condotto nei fondi dell'Archivio Arcivescovile di Bologna.<br/>Per frammenti di riuso si intendono i lacerti di codici o documenti in pergamena dismessi e reimpiegati come materiale per rinforzare le legature di registri, rubriche o simili supporti.<br/>Il catalogo, raccogliendo materiali inediti, mira a incrementare la base recensionale per gli studi filologici e paleografici dei testi in essi contenuti.<br/>Inoltre, il progetto vuole fornire all'utente la possibilità di conoscere o approfondire questa tipologia di trasmissione testuale, espressione della produzione culturale legata anche allo <em>Studium</em> e al Comune di Bologna, in età medievale e moderna.<br/>Il video proposto illustra le diverse tipologie di riuso della pergamena scritta, nel corso del tempo, attraverso alcuni cimeli dell'Archivio.<br/>Per saperne di più, esplora il catalogo.</p>
+						<div><button type="button" class="btn btn-primary btn-lg" id="explore-button">Esplora per Fondo archivistico</button>
+		                <button type="button" class="btn btn-primary btn-lg" id="explore-button">Esplora per Tipologia e Data di riuso</button>
+		            	</div>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<h2><i class="bi bi-binoculars-fill"></i>Frammenti a colpo d'occhio</h2>
+				<div class="row">
+					<div class="col-6" id="timeline">
+						<button type="button" class="btn btn-primary btn-lg" id="explore-button">Linea del tempo<i class="bi bi-arrow-left-right"></i></button>
+						<iframe src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2Fe%2F2PACX-1vTWD6UhJkzjHxg7MIaXXZtfMtZWbtGFdKzb5WymmwpJfbqVZIOKYS3KbkyY8zPuSjV2c9g3ZNxltr9K%2Fpubhtml&amp;dataYCol=data&amp;dataXCol=date%2Ftime&amp;dataDateFormat=%25Y&amp;chartDateFormat=%25Y&amp;chartYLabel=Consistenza&amp;sliderCardTitleCol=title&amp;sliderCardTextCol=text" style="width:100%;height:600px;" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"></iframe>
+					</div>
+					<div class="col-6">
+						<button type="button" class="btn btn-primary btn-lg" id="explore-button">Temi<i class="bi bi-palette2"></i></button>
+						<div id="chart_div" style="width: 650px; height: 500px;">
+						</div>
+					</div>
+			</div>
 		</section>
 		<footer>
 		</footer>
@@ -118,4 +146,45 @@
 		}
 		</script>
 		<script src="https://kit.fontawesome.com/e30cd9f674.js" crossorigin="anonymous"></script>
+		<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['treemap']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+		  ['Type', 'Parent', 'Consistance(size)', 'increase/decrease (color)'],
+          ['Tipologia di contenuti',    null,                 0,                               0],
+		  ['Librari',   'Tipologia di contenuti',             0,                               0],
+          ['Documentari',    'Tipologia di contenuti',             0,                               0],
+          ['Liturgici',      'Librari',             60,                               60],
+          ['Letterari', 'Librari',             40,                               40],
+          ['Filosofici',    'Letterari',             8,                               8],
+          ['Scientifici',    'Letterari',            4,                              4],
+          ['Giuridici',       'Letterari',            20,                              20],
+          ['Medici',    'Letterari',            8,                              8],
+          ['Biblici',    'Liturgici',            16,                              16],
+          ['Lezionari',    'Liturgici',             15,                              15],
+          ['Breviari',   'Liturgici',             8,                              8],
+          ['Messali',    'Liturgici',             12,                              12],
+          ['Graduali',     'Liturgici',             17,                              17],
+          ['Agiografici',        'Liturgici',             8,                              8],
+          ['Teologici',     'Liturgici',               10,                              10],
+          ['Patristici',     'Liturgici',               15,                              15],
+          ['Atti notarili',     'Documentari',               80,                              80],
+          ['Diplomi',      'Documentari',               10,                               10],
+        ])
+        tree = new google.visualization.TreeMap(document.getElementById('chart_div'));
+
+        tree.draw(data, {
+          minColor: '#ffb84d',
+          midColor: '#ff6600',
+          maxColor: '#990033',
+          headerHeight: 30,
+          fontColor: 'black',
+          showScale: true
+        });
+	}
+    </script>
 	</body>
