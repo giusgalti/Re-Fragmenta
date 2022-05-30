@@ -121,7 +121,7 @@ header {
   opacity: 0.9;
   border-radius: 10px;
 }
-.btn-secondary{
+.btn-secondary {
   background-color:#990033 !important;
   width: 30%;
   padding: 10px;
@@ -198,7 +198,7 @@ background-color:#ffb84d !important;
 .cards {
   background-color:#990033 !important;
   padding-bottom: 50px;
-  padding-left: 20px;
+  padding-left: 40px;
   padding-right: 20px;
   background-position: absolute;
 }
@@ -223,5 +223,34 @@ background-color:#ffb84d !important;
 #footer {
   background-color: #ff6600 !important;
 }
+.licenza {
+  text-align: center;
+  font-family: "Georgia";
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+.licenza a {
+  color: #990033 !important;
+}
+.contatti {
+  background-color:#990033 !important;
+  width: 50%;
+  padding: 10px;
+  font-family: "Lucida Handwriting" !important;
+  font-size: 20px !important;
+  font-weight: bolder;
+  text-align: center;
+  padding top: 30px;
+}
+.contatti:hover {
+  background-color:#ffb84d !important;
+}
+#contatti {
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
 
 
