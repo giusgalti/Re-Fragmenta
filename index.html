@@ -10,21 +10,24 @@
 		<link rel="stylesheet" href="css.css">
 	</head>
 	<body>
-	    <header>
+	    <header id=#top>
 		<nav>
 			<div id="navbar">
+			  <div ><img src="img/miniatura-logo.jpg" title="miniatura-logo" id="miniatura-logo">
+			  </div>
 			  <a href="#default" id="logo">Re-Fragmenta</a>
-			  	<div id="title"><h3>Frammenti pergamenacei di riuso<br/>dell'Archivio Arcivescovile di Bologna<h3></div>
+			  	<div ><h2 id="title">Frammenti pergamenacei di riuso<br/>dell'Archivio Arcivescovile di Bologna</h2></div>
 				<div id="navbar-right">
 				    <a class="active" href="#home">Home</a>
 					<a href="https://www.archivio-arcivescovile-bo.it/" target="_blank"><i class="bi bi-bank2"></i>Archivio</a>
-				    <a href="#collection"><i class="bi bi-puzzle-fill"></i>Collezione</a>
+				    <a href="catalogo.html"><i class="bi bi-puzzle-fill"></i>Collezione</a>
 	          		<a class="nav-link dropdown-toggle" href="#collection" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-vector-pen"></i>Indici</a>
 			        	<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				            <li><a class="dropdown-item" href="#persone"><i class="bi bi-person-circle"></i>Persone</a></li>
 				            <li><a class="dropdown-item" href="#opere"><i class="bi bi-book-half"></i>Opere</a></li>
 				            <li><a class="dropdown-item" href="#date"><i class="bi bi-hourglass-split"></i>Date</a></li>
 				        </ul>
+				    <a href="#collection"><i class="bi bi-question-diamond"></i>Guida</a>
 				</div>
 				<div id="search"><form class="d-flex">
 			        <input class="form-control me-2" type="text" placeholder="Ricerca libera...">
@@ -83,9 +86,10 @@
 					<h2 id="progetto"><i class="bi bi-info-circle">Il progetto</h2></i>
 					<div class="col-1"></div>
 					<div class="col-5"><iframe width="600" height="415" src="https://www.youtube-nocookie.com/embed/dUBqmtRqi3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="catalogo.html"><button type="button" class="btn btn-secondary bottone-attivo" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Musicali">Esplora la Collezione</button></a>
 					</div>
 					<div class="col-5">
-						<p id="desc-progetto">Il sito <em>Re-Fragmenta</em> si propone di realizzare una collezione dei frammenti pergamenacei di riuso, rinvenuti durante il censimento condotto nei fondi dell'Archivio Arcivescovile di Bologna.<br/>Per frammenti di riuso si intendono i lacerti di codici o documenti in pergamena dismessi e reimpiegati come materiale per rinforzare le legature di registri, rubriche o simili supporti.<br/>Il catalogo, raccogliendo materiali inediti, mira a incrementare la base recensionale per gli studi filologici e paleografici dei testi in essi contenuti.<br/>Inoltre, il progetto vuole fornire all'utente la possibilità di conoscere o approfondire questa tipologia di trasmissione testuale, espressione della produzione culturale legata anche allo <em>Studium</em> e al Comune di Bologna, in età medievale e moderna.<br/>Il video proposto illustra le diverse tipologie di riuso della pergamena scritta, nel corso del tempo, attraverso alcuni cimeli dell'Archivio.<br/>Per saperne di più, esplora il catalogo.</p>
+						<p id="desc-progetto">Il sito <em>Re-Fragmenta</em> si propone di realizzare una collezione dei frammenti pergamenacei di riuso, rinvenuti durante il censimento condotto nei fondi dell'Archivio Arcivescovile di Bologna.<br/>Per frammenti di riuso si intendono i lacerti di codici o documenti in pergamena dismessi e reimpiegati come materiale per rinforzare le legature di registri, rubriche o simili supporti.<br/>Il catalogo, raccogliendo materiali inediti, mira a incrementare la base recensionale per gli studi filologici e paleografici dei testi in essi contenuti.<br/>Inoltre, il progetto vuole fornire all'utente la possibilità di conoscere o approfondire questa tipologia di trasmissione testuale, espressione della produzione culturale legata anche allo <em>Studium</em> e al Comune di Bologna, in età medievale e moderna.<br/>Il video proposto illustra le diverse tipologie di riuso della pergamena scritta, nel corso del tempo, attraverso alcuni cimeli dell'Archivio.<br/>Per saperne di più:</p>
 						<div><button type="button" class="btn btn-primary btn-lg" id="explore-button">Esplora per Fondo archivistico</button>
 		                <button type="button" class="btn btn-primary btn-lg" id="explore-button">Esplora per Tipologia e Data di riuso</button>
 		            	</div>
@@ -187,13 +191,13 @@
 					</div>
 					<div class="col-4">
 	                	<div>
-	                		<p class="licenza"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+	                		<p class="licenza"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Il progetto dispone di licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 	                		</p>
 	                	</div>
 					</div>
 					<div class="col-4">
-							<div id="contatti"><button type="button" class="btn btn-primary contatti" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Form contatti<i class="bi bi-envelope"></i></button>
-							<p class="licenza">Progetto DHCH realizzato da Giuseppe Galtieri e Lucia Pia Caputo, in collaborazione con <a href="https://www.archivio-arcivescovile-bo.it/" target="_blank">Archivio Arcivescovile di Bologna</a></p>
+							<div id="contatti"><button type="button" class="btn btn-primary bottone-attivo" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Form contatti<i class="bi bi-envelope"></i></button>
+							<p class="licenza">Progetto di DHCH realizzato da <br/>Giuseppe Galtieri & Lucia Pia Caputo,<br/> in collaborazione con <a href="https://www.archivio-arcivescovile-bo.it/" target="_blank">Archivio Arcivescovile di Bologna</a> & <a href="https://www.unibo.it/it" target="_blank">Università di Bologna</a>.</p>
 							</div>
 						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						  <div class="modal-dialog">
@@ -205,7 +209,7 @@
 						      <div class="modal-body">
 						        <form>
 						          <div class="mb-3">
-						            <label for="recipient-name" class="col-form-label">Nome:</label>
+						            <label for="recipient-name" class="col-form-label">Nome utente:</label>
 						            <input type="text" class="form-control" id="recipient-name">
 						          </div>
 						          <div class="mb-3">
@@ -215,14 +219,17 @@
 						        </form>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary contatti" data-bs-dismiss="modal">Annulla</button>
-						        <button type="button" class="btn btn-primary contatti">Invia</button>
+						        <button type="button" class="btn btn-secondary bottone-attivo" data-bs-dismiss="modal">Annulla</button>
+						        <button type="button" class="btn btn-primary bottone-attivo">Invia</button>
 						      </div>
 						    </div>
 						  </div>
 						</div>
 					</div>
 						<div class="col-2">
+							<div class="button-go-top">
+							<a href="#top"><button type="button" class="btn btn-secondary go-top"><i class="bi bi-arrow-up-circle">Torna su</i></button></a>
+							</div>
 						</div>
 					</div>
 			</div>	

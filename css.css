@@ -29,27 +29,27 @@
   font-size: 40px;
   font-weight: bold;
   transition: 0.4s;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 /* Links on mouse-over */
 #navbar-right a:hover {
-  background-color:#ffb84d;
-  color: black;
+  background-color:#ffb84d !important;
+  color: black !important;
 }
 
 /* Style the active/current link */
-#navbar a.active {
+#navbar a.active,.offcanvas-body a.active {
   background-color:#990033;
-  color: white;
+  color: white !important;
 }
 
 /* Display some links to the right */
 #navbar-right {
   float: right;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-top: 5px;
-  width: 40%;
+  width: 45%;
   font-family: "Georgia";
 }
 
@@ -72,11 +72,12 @@
   padding: 50px;
   position: bottom-left;
   font-family: "Georgia";
-  font-size: 20px; 
+  font-size: 25px; 
   width: 40%;
   color: #ffffe6;
   text-align: left;
   position: absolute;
+  margin-left: 120px;
 }
 
 i {
@@ -92,7 +93,7 @@ padding: 8px;
 }
 #search {
   margin-top: 80px;
-  margin-left: 808px;
+  margin-left: 780px;
   width: 20%;
   padding-top: 0px;
   clear: none;
@@ -126,7 +127,7 @@ header {
   width: 30%;
   padding: 10px;
   font-family: "Lucida Handwriting" !important;
-  font-size: 27px !important;
+  font-size: 27px;
   font-weight: bolder;
 }
 .caption {
@@ -176,8 +177,9 @@ header {
   font-size: 15px;
   width: 50%;
 }
-#explore-button:hover {
+#explore-button:hover, .go-top:hover {
 background-color:#ffb84d !important;
+border-color: yellow;
 }
 #view {
   background-color: #ffffcc;
@@ -233,7 +235,7 @@ background-color:#ffb84d !important;
 .licenza a {
   color: #990033 !important;
 }
-.contatti {
+.bottone-attivo {
   background-color:#990033 !important;
   width: 50%;
   padding: 10px;
@@ -242,15 +244,158 @@ background-color:#ffb84d !important;
   font-weight: bolder;
   text-align: center;
   padding top: 30px;
+  border-color: white;
 }
-.contatti:hover {
+.bottone-attivo:hover {
   background-color:#ffb84d !important;
+  border-color: yellow;
 }
 #contatti {
   padding: 20px;
   text-align: center;
   line-height: 25px;
 }
+.button-go-top{
+  padding: 20px;
+  float: left;
+}
+.go-top {
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  float: none;
+  font-size: 18px !important;
+  border-radius: 150px;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 40% !important;
+  height: 1200px !important;
+}
 
+.offcanvas-body a, .offcanvas-title{
+ font-family: "Georgia";
+ font-size: 22px;
+ color: black;
+ text-decoration: none !important;
+ float: none;
+}
+.offcanvas-body li {
+  padding: 10px !important; 
+  text-align: center !important; 
+}
+.offcanvas-body a:hover {
+  background-color: #ffb84d !important;
+  border-radius: 30px;
+}
+.fixed-top, .offcanvas {
+  background-color: #ff6600 !important;
+}
+.navbar-brand {
+  font-family: "Lucida Handwriting";
+  color: #ffff99;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 350px;
+}
+.catalogo {
+  background-color:#990033 !important;
+  margin-top: 80px !important;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Georgia";
+}
+.nav-catalogo {
+  background-color: #ffb84d;
+  padding: 20px;
+  font-family: "Georgia";
+  font-size: 18px;
+}
+.nav-catalogo a {
+  text-decoration: none;
+  color: black;
+}
+.nav-catalogo a:hover {
+  color: #990033;
+  text-decoration: underline;
+}
+#miniatura-logo {
+  padding: 5px;
+  width: 10%;
+  height: 150px;
+  float: left;
+  border-radius: 20px;
+}
 
-
+#miniatura-logo-collezione {  
+  width: 100%;
+  height: 100px;
+  float: left;
+  border-radius: 20px;
+}
+.form-check {
+color: #990033 !important;
+font-size: 15px;
+font-weight: bolder;
+}
+.back-filter-catal {
+background-color:#ffb84d;
+}
+.filter-catal {
+  width: 70% !important;
+  text-align: center;
+}
+.nav-filter {
+  font-family: "Georgia" !important;
+  font-size: 17px !important;
+  color: whitesmoke !important;
+  background-color: #990033 !important;
+  font-weight: bold;
+}
+.nav-filter:hover {
+  background-color: #ffb84d !important;
+  border-color: whitesmoke !important;
+}
+#arrow-catalog-left, #arrow-catalog-right {
+  color: #ffb84d;
+  margin-top: 80px;
+}
+#arrow-catalog-left:hover, #arrow-catalog-right:hover {
+  color: #990033 !important;
+}
+.zoom:hover {
+background-color: #ffb84d;
+}
+.zoom {
+padding: 10px;
+}
+.card-filter-title {
+font-size: 15px !important;
+font-family: "Georgia" !important;
+text-align: center;
+color: #990033;
+font-style: italic;
+font-weight: bolder;
+}
+.card-catal {
+  width: 75% !important;
+  padding: 10px !important;
+}
+.cont-catal {
+  padding-left: 80px !important;
+  padding-bottom: 50px !important;
+  background-color: #ffff99;
+}
+.col-catal {
+  padding-top: 30px !important;
+}
+.tab-card {
+  font-family: "Lucida Handwriting";
+  color: #990033 !important;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+.tab-card:hover {
+  background-color: whitesmoke !important;
+}
