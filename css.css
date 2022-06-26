@@ -116,7 +116,7 @@ padding: 8px;
 header {
   background-color: #990033;
 }
-.carousel-caption{
+.caption-index{
   background-color: #ffb84d !important;
   height: 300px;
   opacity: 0.9;
@@ -166,7 +166,7 @@ header {
   font-weight: lighter;
   color: black;
   line-height: 150%;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 #explore-button {
   padding: 10px !important;
@@ -202,18 +202,23 @@ border-color: yellow;
   padding-bottom: 50px;
   padding-left: 40px;
   padding-right: 20px;
-  background-position: absolute;
+  background-position: absolute
+}
+.card-catal a{
+  text-decoration: none !important;
+  color: black;
 }
 
 #percorsi {
   color: white !important;
 }
-.card-title {
+.card-title-index {
   font-family: "Lucida Handwriting";
-}
-.card-body {
-  font-family: "Georgia";
   font-size: 18px;
+}
+.card-body-index{
+  font-family: "Georgia";
+  font-size: 15px;
   text-align: justify;
   padding: 20px;
   padding-top: 50px;
@@ -364,7 +369,7 @@ background-color:#ffb84d;
   color: #990033 !important;
 }
 .zoom:hover {
-background-color: #ffb84d;
+background-color: #ffff99;
 }
 .zoom {
 padding: 10px;
@@ -380,6 +385,9 @@ font-weight: bolder;
 .card-catal {
   width: 75% !important;
   padding: 10px !important;
+}
+.card-catal:hover {
+  box-shadow: 10px 20px #ffb84d;
 }
 .cont-catal {
   padding-left: 80px !important;
@@ -398,4 +406,132 @@ font-weight: bolder;
 }
 .tab-card:hover {
   background-color: whitesmoke !important;
+}
+div .pagination {
+  padding-top: 10px;
+}  
+.pagination a {
+  color: #990033 !important;
+  background-color: #ffb84d;
+}
+.pagination a:hover {
+  background-color: #ff6600;
+}
+.card-title-aside {
+  font-family: "Georgia";
+  color: #990033;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.card-text-aside {
+  font-family: "Georgia";
+  font-size: 15px;
+  line-height: 150%;
+}
+.btn-aut {
+  font-family: "Georgia";
+  background-color: red;
+  border-color: darkred;
+}
+.btn-pers {
+  font-family: "Georgia";
+  background-color: green;
+  border-color: darkgreen;
+}
+.btn-aut:hover {
+  background-color: darkred;
+  border-color: darkred;
+}
+.btn-pers:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+.btn-more {
+  background-color: #990033;
+  border-color: darkred;
+  font-family: "Lucida Handwriting";
+  font-size: 15px;
+}
+.btn-more:hover {
+  background-color: darkred;
+}
+.card-text-aside a {
+  text-decoration: none;
+  color: #990033;
+  font-size: bold;
+}
+.card-text-aside a:hover{
+  text-decoration: underline;
+}
+section.item {
+  background-color: #ffff99;
+}
+.nav-item {
+  padding-top: 10px;
+  font-size: 16px;
+  font-family: "Georgia";
+}
+.nav-item a{
+  text-decoration: none;
+  color: black;
+}
+.nav-item a:hover{
+  text-decoration: underline;
+  color: #990033; 
+}
+.btn-op {
+background-color: orange;
+}
+.btn-tema {
+background-color: blue;
+}
+.btn-data {
+background-color: violet;
+}
+.btn-op:hover {
+background-color: darkorange;
+}
+.btn-tema:hover {
+background-color: darkblue;
+}
+.btn-data:hover {
+background-color: darkviolet;
+}
+.btn-script {
+  background-color: pink;
+}
+.btn-script:hover {
+  background-color: darksalmon;
+}
+.btn-reuse {
+  background-color: brown;
+}
+.btn-reuse:hover {
+  background-color: darkgrey;
+}
+
+.form-note-aside {
+  padding-top: 50px;
+  font-family: "Georgia";
+  font-size: 18px;
+  color: #990033;
+  font-weight: bold;
+}
+h3.aside {
+  padding: 10px;
+  font-family: "Georgia";
+  color: #990033;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffb84d;
+  border-radius: 15px;
+}
+.car-img {
+  padding: 20px;
+  width: 70%;
+}
+div.central-card {
+  padding-top: 15px !important;
 }
