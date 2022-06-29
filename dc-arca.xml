@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PhysicalObject xmlns:dc="http://purl.org/dc/elements/1.1/">
-	
-</PhysicalObject>
+<RelatedObject xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<item n="1" xml:id="one">
+		<dc:identifier type="CollezioniUniversitarie">2551</dc:identifier>
+		<dc:title>Arca di Giovanni da Legnano</dc:title>
+		<dc:creator>Jacobello dalle Mesagne</dc:creator>
+		<dc:creator>Paolo dalle Mesagne</dc:creator>
+		<dc:date>1383</dc:date>
+		<dc:type>arca</dc:type>
+		<dc:type>formella</dc:type>
+		<dc:subject>sepolcro</dc:subject>
+		<dc:subject>bassorilievo funerario</dc:subject>
+		<dc:subject>scene di scuola</dc:subject>
+		<dc:description>Formella dell'arca del Dottore Giovanni da Legnano con rilievo figurato con un gruppo di studenti che guardano attentamentamente il maestro e seguono assorti la lezione. Variamente caratterizzati i volti delle figure umane, incorniciati da copricapi, raffinati i panneggi degli abiti.</dc:description>
+		<dc:format>marmo</dc:format>
+		<dc:format type="tecnica">bassorilievo</dc:format>
+		<dc:format type="extent">63x76mm</dc:format>
+		<dc:contributor>Genus Bononiae-Musei nella città</dc:contributor>
+		<dc:coverage>Bologna</dc:coverage>
+		<dc:source>Wikipedia</dc:source>
+		<dc:publisher>Wikipedia</dc:publisher>
+		<dc:relation>URI:https://collezioni.genusbononiae.it/products/dettaglio/10879</dc:relation>
+		<dc:relation>URI:https://it.wikipedia.org/wiki/Universit%C3%A0_di_Bologna</dc:relation>
+		<dc:relation>iscrizione funeraria della lapide</dc:relation>
+		<dc:provenance>Museo Civico Medievale, Bologna</dc:provenance>
+		<dc:right>Musei Civico Medievale, Bologna</dc:right>
+	</item>
+</RelatedObject>

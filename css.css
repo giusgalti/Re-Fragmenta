@@ -556,6 +556,16 @@ color: green;
 text-decoration: underline;
 font-style: italic;
 }
+span.date {
+  color: violet;
+  text-decoration: underline;
+  font-weight: bold;
+}
+span.work {
+  color: orange;
+  font-style: italic;
+  text-decoration: underline;
+}
 
 .item-subtitle {
 text-align: center;
@@ -579,7 +589,14 @@ font-weight: bold;
 width: 100%;
 padding-top: 20px;
 float: none;
-height: 450px;
+}
+
+.card-video a {
+  color: #990033;
+  text-decoration: none;
+}
+.card-video a:hover {
+  text-decoration: underline;
 }
 .cards-aside-right {
   padding-top: 30px !important;
@@ -588,4 +605,40 @@ height: 450px;
 .card-img {
   width: 100%;
 }
+.list-group-item a {
+  color: #990033;
+  text-decoration: none;
+}
 
+.list-group-item a:hover {
+  text-decoration: underline;
+}
+.activity {
+  padding-top: 10px !important;
+  padding-bottom: 15px !important;
+}
+.btn-act {
+  background-color: darkorange;
+  font-family: "Georgia";
+  font-size: 18px;
+  border-color: yellow;
+}
+.btn-act:hover {
+  background-color: #990033;
+}
+.card.reuse {
+  padding-top: 15px !important;
+}
+.card-metadata a {
+  color: #990033 !important;
+  text-decoration: none !important;
+}
+.card-metadata a:hover {
+  text-decoration: underline !important;
+}
+.card-metadata {
+  line-height: 120%;
+}
+.card-metadata span {
+  padding: 5px;
+}
