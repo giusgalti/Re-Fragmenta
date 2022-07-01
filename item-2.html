@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Re-Fragmenta</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="css.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar bg-light fixed-top">
+			  <div class="container-fluid">
+			  	<div ><img src="img/miniatura-logo.jpg" title="miniatura-logo"id="miniatura-logo-collezione">
+			    </div>
+			    <div class="navbar-brand"><a class="navbar-brand" href="index.html">Re-Fragmenta</a>	  
+			    </div> 
+			    <form class="d-flex">
+			        <input class="form-control me-2" type="text" placeholder="Ricerca libera...">
+			        <button class="btn btn-primary" type="button" id="search-button"><i class="bi bi-search"></i></button>
+			    </form>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+			      <div class="offcanvas-header">
+			        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			      </div>
+			      <div class="offcanvas-body">
+			        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+			          <li class="nav-item">
+			            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			          </li>
+			          <li class="nav-item">
+			            <a href="https://www.archivio-arcivescovile-bo.it/" target="_blank"><i class="bi bi-bank2"></i>Archivio</a>
+			          </li>
+			          <li>
+			          	<a href="catalogo.html"><i class="bi bi-puzzle-fill"></i>Collezione</a>
+			          </li>
+			          <li class="nav-item dropdown">
+			            <a class="nav-link dropdown-toggle" href="#indici" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Indici
+			            </a>
+			            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+			              <li><a class="dropdown-item" href="#persone"><i class="bi bi-person-circle"></i>Persone</a></li>
+			              <li><a class="dropdown-item" href="#opere"><i class="bi bi-book-half"></i>Opere</a></li>
+			              <li><a class="dropdown-item" href="#date"><i class="bi bi-hourglass-split"></i>Date</a></li>
+			            </ul>
+				            <li><a href="#collection"><i class="bi bi-question-diamond"></i>Guida</a>
+				            </li>
+			       		</ul>	  
+			      </div>
+			</nav>			   	
+			<div class="container-fluid catalogo">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Agostino,<i>Trattato sul Vangelo di Giovanni</i></h1>
+						</div>
+					</div>
+			</div>
+		</header>
+		
+		<section class="item">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3">
+						<aside>
+							<nav aria-label="breadcrumb" class="nav-item">
+							  <ol class="breadcrumb">
+							  	<li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+							    <li class="breadcrumb-item active" aria-current="page"><a href="catalogo.html">Collezione</a></li>
+							    <li class="breadcrumb-item active" aria-current="page">Agost., Trattato sul Vangelo di Giovanni</li>
+							  </ol>
+							</nav>
+						<div class="card-group">
+						  <div class="card">
+						    <img src="img/agostino.jpg" class="card-img-top" alt="Agostino">
+						    <div class="card-body">
+						      <h5 class="card-title card-title-aside">Agostino</h5>
+						      <p class="card-text-aside">Attività: <b>Padre della Chiesa</b>,</br>Periodo: <b>IV-V d.C.</b></br>Controllo autorità:<a href="https://viaf.org/viaf/66806872/">66806872<sup>VIAF</sup></a>
+						      </p>
+						      <p>
+						      	<button type="button" class="btn btn-primary btn-sm btn-aut"><i class="bi bi-tag-fill"></i>Agostino</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-pers"><i class="bi bi-tag-fill"></i>Agostino</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-op"><i class="bi bi-tag-fill"></i>Trattato sul Vangelo di S. Giovanni</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-data"><i class="bi bi-tag-fill"></i>IV-V d.C.</button>
+							  </p>
+							  <p><a href="https://www.treccani.it/enciclopedia/agostino-aurelio-santo#:~:text=Agostino%20Aurelio%20d'Ippona%2C%20santo&text=nelle%20forme%20Augustino%3B%20Agustino)%20Alberto,e%20il%2029%20agosto%20430." target="_blank"><button type="button" class="btn btn-primary btn-lg btn-more">Scopri di più</button></a>
+							  </p>
+						    </div>
+						  </div>
+						  <div class="card">
+						    <img src="img/san-giovanni.jpg" class="card-img-top" alt="santo-giovanni-evangelista">
+						    <div class="card-body">
+						      <h5 class="card-title card-title-aside">Giovanni, santo</h5>
+						      <p class="card-text card-text-aside">Attività: <b>evangelista</b>,</br>Periodo: <b>I d.C</b>,</br>Controllo autorità: <a href="https://viaf.org/viaf/102317020/">102317020<sup>VIAF</sup></a></p>
+						      <p>
+						      	<button type="button" class="btn btn-primary btn-sm btn-aut"><i class="bi bi-tag-fill"></i>Giovanni, santo</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-pers"><i class="bi bi-tag-fill"></i>Giovanni, santo</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-op"><i class="bi bi-tag-fill"></i>Vangelo</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-data"><i class="bi bi-tag-fill"></i>I d.C.</button>
+							  </p>
+							  <p>
+							  	<a href="https://www.treccani.it/enciclopedia/santo-giovanni-evangelista_%28Enciclopedia-Italiana%29/" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-more">Scopri di più</button></a>
+							  </p>
+						    </div>
+						  </div>
+						</div>
+						<div>
+						<h3 class="aside">Frammenti correlati nella raccolta:</h3>
+						</div>
+						<div class="card-group">
+						  <div class="card">
+						    <img src="img/corr-293.jpg" class="card-img-top" alt="Commento ai Vangeli di S.Agostino">
+						    <div class="card-body">
+						      <h5 class="card-title card-title-aside">Antologia di commento ai Vangeli di Matteo (Sedulio) e Giovanni (Agostino)</h5>
+						      <p><button type="button" class="btn btn-primary btn-lg btn-more">Esplora</button></a>
+							  </p>
+						      <p class="card-text-aside">Autore:<a href="https://viaf.org/viaf/66806872/
+						      	">Agostino- 66806872<sup>VIAF</sup></a></br><button type="button" class="btn btn-primary btn-sm btn-aut"><i class="bi bi-tag-fill"></i>Agostino</button>, <a href="https://viaf.org/viaf/3266445/">Sedulio Scoto - 3266445<sup>VIAF</sup></a><button type="button" class="btn btn-primary btn-sm btn-aut"><i class="bi bi-tag-fill"></i>Sedulio Scoto</button>Segnatura: <b>293/4 - Tribunale Rev. Fabbrica di S. Pietro in Roma</b></br>Periodo: <b>XIV d.C.</b><button type="button" class="btn btn-primary btn-sm btn-data"><i class="bi bi-tag-fill"></i>XIV</button></br>Tema: <b>Liturgico</b><button type="button" class="btn btn-primary btn-sm btn-tema"><i class="bi bi-tag-fill"></i>Liturgico</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-tema"><i class="bi bi-tag-fill"></i>Commento</button></br>Scrittura:<b>Gotica textualis</b><button type="button" class="btn btn-primary btn-sm btn-script"><i class="bi bi-tag-fill"></i>Gotica</button></br>Riuso: <b>coperta</b><button type="button" class="btn btn-primary btn-sm btn-reuse"><i class="bi bi-tag-fill"></i>Coperta</button>
+						      </p>
+						      	<button type="button" class="btn btn-primary btn-sm btn-op"><i class="bi bi-tag-fill"></i>Commento ai Vangeli</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-op"><i class="bi bi-tag-fill"></i>Trattato sul Vangelo di Giovanni</button>
+						       <p>
+							   </p>
+						    </div>
+						  </div>
+						  <div class="card">
+						    <img src="img/corr-97.jpg" class="card-img-top" alt="Omeliario sul De Trinitate">
+						    <div class="card-body">
+						      <h5 class="card-title card-title-aside">Omeliario con commento  sul <i>De Trinitate</i></h5>
+						      <p><button type="button" class="btn btn-primary btn-lg btn-more">Esplora</button></a>
+							  </p>
+						      	<p class="card-text-aside">Autore: <b>Ignoto</b></br>Persona:<a href="https://viaf.org/viaf/66806872/">Agostino -66806872<sup>VIAF</sup></a>,
+						      	<button type="button" class="btn btn-primary btn-sm btn-pers"><i class="bi bi-tag-fill"></i>Agostino</button></br> Segnatura: <b>97 - Fabbrica di S. Pietro in Roma</b></br>Periodo: <b>XIV-XV d.C.</b><button type="button" class="btn btn-primary btn-sm btn-data"><i class="bi bi-tag-fill"></i>XV</button></br>Tema: <b>Liturgico</b><button type="button" class="btn btn-primary btn-sm btn-tema"><i class="bi bi-tag-fill"></i>Liturgico</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-tema"><i class="bi bi-tag-fill"></i>Commento</button></br>Scrittura:<b>Gotica rotunda</b><button type="button" class="btn btn-primary btn-sm btn-script"><i class="bi bi-tag-fill"></i>Gotica</button></br>Riuso: <b>coperta</b><button type="button" class="btn btn-primary btn-sm btn-reuse"><i class="bi bi-tag-fill"></i>Coperta</button>
+						      	</p>
+						      	<p>
+						      	<button type="button" class="btn btn-primary btn-sm btn-op"><i class="bi bi-tag-fill"></i>Omeliario</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-op"><i class="bi bi-tag-fill"></i>De Trinitate</button>
+						      </p>
+						    </div>
+						  </div>
+						</div>
+						<div class="card card-video">
+							<div class="card-body">
+							  	<iframe width="320" height="320" src="https://www.youtube.com/embed/pewasA24hPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  	<h3 class="aside">L'arte della miniatura</h3>
+							  	<p><span>Tipo di oggetto</span>: <b>video</b></p>
+							  	<p><span>Produttore</span>: <a href="https://www.worldhistory.org/" target="_blank"><b>World History Encyclopedia</b></a></p>
+						  	</div>
+						</div>
+						</aside>
+					</div>
+					<div class="col-md-6">
+						<div class="card central-card">
+							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+							  <div class="carousel-indicators">
+							    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							  </div>
+							  <div class="carousel-inner">
+							    <div class="carousel-item active">
+							    		<div class="img-magnifier-container">
+							      			<img src="img/miniato-1.jpg" class="d-block w-100 car-img" alt="miniato-1">
+							      		</div>
+							    </div>
+							    <div class="carousel-item">
+							    		<div class="img-magnifier-container">
+							      			<img src="img/miniato-2.jpg" class="d-block w-100 car-img" alt="miniato-2">
+							      		</div>
+							    </div>
+							    <div class="carousel-item">
+							    		<div class="img-magnifier-container">
+							      <img src="img/miniato-3.jpg" class="d-block w-100 car-img" alt="miniato-3">
+							      		</div>
+							    </div>
+							  </div>
+							  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Previous</span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Next</span>
+							  </button>
+							</div>					  
+						    <div class="card-body">
+						    <h5 class="card-title title-card">Agostino, Trattato sul Vangelo di Giovanni</h5>
+						    <h6 class="item-subtitle">liber II, cap. 33</h6>
+						    <p class="card-text">"cum igitur deus uobis genitor non sit nec aqua baptismatis uera nascamini, nemo uestrum penitus natus est nec patrem habetis impii nec matrem.<p>uos ergo huiusmodi non debeo baptizare, etsi, ut carnem iudaei quasi baptizant, milies uos lauetis?</p><p><span class="people"><i class="bi bi-person-circle"></i>Augustinus</span>respondit: certe proposueras plene discutere baptismum trinitatis et intentos nos multum feceras; sed scilicet, quod uobis facillimum est, quam cito ad solita maledicta uertisti.</p><p>hoc reuera copiose facis.</p><p>proponis enim tibi quos uis, in quos inueharis quantum uis; in qua magna sermonis latitudine uno breuissimo uerbo quod dicitur proba in artissimas coartaris angustias.</p><p>hoc enim tibi dicit semen <span class="people"><i class="bi bi-person-circle"></i>Abrahae</span>, in quo cum omnes gentes benedicuntur non curant cum a te maledicuntur".<b><a href="#" data-bs-toggle= "tooltip" title="Espandi trascrizione">[...]</a></b></p>
+						  </div>
+						  <ul class="list-group list-group-flush list-item">
+						    <li class="list-group-item"><span>Titolo</span>:<b>Trattato sul Vangelo di Giovanni</b></li>
+						    <li class="list-group-item"><span>Autore</span>:<b><a href="https://viaf.org/viaf/66806872/" target="_blank">Agostino<sup>VIAF</sup></a></b>
+						    <li class="list-group-item"><span>Data</span>: <b><a href="#">XIII</a></b></li>
+						    <li class="list-group-item"><span>Segnatura</span>:<b><a href="https://www.geonames.org/11127226/cattedrale-metropolitana-di-san-pietro.html">Bologna, Archivio Generale Arcivescovile<sup>GeoNames</sup></a>,Consorzio Clero Urbano, II C4, 22</b></li>
+						    <li class="list-group-item"><span>Scrittura</span>: <b><a href="https://it.wikipedia.org/wiki/Scrittura_gotica" target="_blank">Gotica textualis<sup>Wikipedia</sup></a></b></li>
+						    <li class="list-group-item"><span>Consistenza</span>: <b><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=folio" target="_blank">Bifoglio < porzione < manoscritto</b><sup>WordNet</sup></a></li>
+						    <li class="list-group-item"><span>Dimensioni materiali</span>: <b>483x313 mm</b></li>
+						    <li class="list-group-item"><span>Dimensioni specchio scrittorio</span>: <b>230x360mm</b></li>
+						    <li class="list-group-item"><span>Numero di colonne</span>: <b>2</b></li>
+						    <li class="list-group-item"><span>Rigatura</span>: <b>a secco</b></li>
+						    <li class="list-group-item"><span>Condizione</span>: <b>Lo stato di conservazione della pergamena si presenta complessivamente buono, sebbene mostri un leggero ringrizimento sull’intera superficie, una lieve ondulazione su un solo lato del supporto e isolate macchie di inchiostro più scuro e isolate macchie di umidità</b></li>
+						    <li class="list-group-item"><span>Lingua</span>: <b><a href="#">Latino</b></a></li>
+						    <li class="list-group-item"><span>Decorazione</span>: <b>miniatura di pennello a carattere zoomorfo, realizzata con pittura a guazzo: raffigura un drago mentre azzanna un piccolo animale.</b></li>
+						    <li class="list-group-item"><span>Descrizione</span>: <b>Bifoglio contenente una prozione del testo del Trattato di San Giovanni. Si caratterizza per una ricca miniatura policroma. </b></li>
+						  </ul>
+						  <ul class="list-group list-group-flush">
+						  	<div><h6 class="item-subtitle"><i class="bi bi-bookmarks"></i>Descrizione sul riuso</h6></div>
+						  	<li class="list-group-item"><span>Titolo</span>: <b>Libro di conti del Consorzio di Porta Ravegnana</b></li>
+						  	<li class="list-group-item"><span>Data</span>: <b><a href="#">1548</b></a></li>
+						    <li class="list-group-item"><span>Provenienza</span>: <b>Bologna, Consorzio di Porta Ravegna</b></li>
+						    <li class="list-group-item"><span>Tipo</span>: <b><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=cover&i=5&h=0001000000000000000000000000000000000000#c">Coperta < registro < libro<sup>WordNet</sup></a></b></li>
+						    <li class="list-group-item"><span>Note</span>: <b>Colcoli</b></li>
+						  </ul>
+						  <div class="card-body">
+						    <a href="https://www.augustinus.it/italiano/commento_vsg/index2.htm" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-more">Scopri di più</button></a>
+						    <button type="button" class="btn btn-primary btn-sm btn-xml"><i class="bi bi-code-slash"></i><a href="tei-agostino.xml">XML/TEI</button></a>
+						    <button type="button" class="btn btn-primary btn-sm btn-xml"><i class="bi bi-code-slash"></i><a href="xml-riuso-agostino.xml">XML-fr.riuso</button></a>
+						    <div class="tag-item">
+						    	<button type="button" class="btn btn-primary btn-sm btn-aut"><i class="bi bi-tag-fill"></i>Agostino</button>
+						    	<button type="button" class="btn btn-primary btn-sm btn-pers"><i class="bi bi-tag-fill"></i>Giovanni, santo</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-op"><i class="bi bi-tag-fill"></i>Trattato sul Vangelo di Giovanni</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-data"><i class="bi bi-tag-fill"></i>XIII</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-tema"><i class="bi bi-tag-fill"></i>Commento</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-tema"><i class="bi bi-tag-fill"></i>Liturgico</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-script"><i class="bi bi-tag-fill"></i>Gotica</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-script"><i class="bi bi-tag-fill"></i>Miniatura</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-script"><i class="bi bi-tag-fill"></i>Pittura a guazzo</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-script"><i class="bi bi-tag-fill"></i>Zoomorfo</button>
+						      	<button type="button" class="btn btn-primary btn-sm btn-reuse"><i class="bi bi-tag-fill"></i>Coperta</button>
+						    </div>
+  						  </div>
+						</div>
+					</div>
+					<div class="col-md-2 cards-aside-right">
+							<div class="activity">
+	  							<div class="d-grid gap-2 col-6 mx-auto">
+								  <button class="btn btn-primary btn-act" type="button"><i class="bi bi-share"></i>Condividi</button>
+								  <button class="btn btn-primary btn-act" type="button"><i class="bi bi-download"></i>Immagini/.jpg</button>
+								  <button class="btn btn-primary btn-act" type="button"><i class="bi bi-file-earmark-arrow-down"></i>Bibliografia</button>
+								  <button class="btn btn-primary btn-act" type="button">Licenza<img alt="Creative Commons License" style="padding-left:5px; width:40%" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></button>
+								</div>
+  							</div>
+	  					<div><h3 class="aside">Codici correlati di altri istituti:</h3>
+	  					</div>
+	  					<div class="card-group card-aside-right">
+ 						 	<div class="card">
+    								<img src="img/corr-tract1.jpg" class="card-img-top" alt="Tractatus-vaticana">
+    					 			<div class="card-body">
+      										<h5 class="card-title card-title-aside">In Ioahannis evangelium tractatus</h5>
+      										<p class="card-text card-text-aside">Consulta il codice</br><a href="https://digi.vatlib.it/view/MSS_Arch.Cap.S.Pietro.C.96" target="_blank">Arch.Cap.S.Pietro.C.96</a></p>
+      										<p class="card-text card-text-aside">Visita l'istituzione <a href="https://digi.vatlib.it/" target="_blank">Biblioteca Apostolica Vaticana</a></p>
+    					 			</div>
+  						 	</div>
+  						 	<div class="card">
+    								<img src="img/corr-tract2.jpg" class="card-img-top" alt="Tracatus-Brixiana">
+    								<div class="card-body">
+      										<h5 class="card-title card-title-aside">In Ioahannis evangelium tractatus</h5>
+      										<p class="card-text card-text-aside">Consulta il codice <a href="https://www.e-codices.unifr.ch/it/fmb/cb-0100/1v/0/" target="_blank"> II, 190</a></p>
+      										<p class="card-text card-text-aside">Visita l'istituzione <a href="https://queriniana.comune.brescia.it/opac/detail/view/test:catalog:1784981" target="_blank">Biblioteca Queriniana di Brescia</a></p>
+    					 			</div>
+  							</div>
+  						</div>
+  						<div><h3 class="aside"><i class="bi bi-plus-circle-fill"></i>Per approfondire:</h3>
+  						</div>
+  						<div class="card card-img">
+  								<img src="img/visioni-agostino.jpg" class="card-img-top" alt="visioni-agostino">
+  								<div class="card-body">
+  										<h5 class="card-title card-title-aside">Visione di Sant'Agostino</h5>
+    									<p class="card-text">Il dipinto realizzato agli inizi del <span class="date">1500</span> da <span class="people">Francesco Raibolini, Il Francia</span>, personalità artisitica di rilievo nel panorama della Bologna rinascimentale, rappresenta un'importante testimonianza della cultura religiosa della città nutrita dalle letture del testo di Agostino, sotto la signoria dei <span class="people">Bentivoglio</span>. </br>Nell'immaginine viene rappresentata le visioni di Agostino ispirate alla lettura del <span class="work">Vangelo di Giovanni</span>.</br>La tavola testimonia la fortuna della figura di <span class="people">S.Agostino</span>, che a partire dall'età medievale in cui si colloca il frammento, risulta tra gli autori più letti nelle scuole ecclesiastiche del bolognese.</p>
+    								<p>
+  										<a class="btn btn-primary btn-more" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Apri scheda completa
+  										</a>
+  										<button type="button" class="btn btn-primary btn-sm btn-xml"><i class="bi bi-code-slash"></i><a href="dc-dipinto.xml" target="_blank">XML/DC</button></a>
+									</p>
+									<div class="collapse" id="collapseExample">
+  									<div class="card card-body">
+  										<ul class="list-group list-group-flush list-item">
+						    				<li class="list-group-item"><span>Titolo</span>: <b>Visione di Sant'Agostino</b></li>
+						   					<li class="list-group-item"><span>Autore</span>: <b><a href="http://viaf.org/viaf/125159234567703372071" target="_blank">Francesco Raibolini<sup>VIAF</sup></a>detto <a href="https://www.treccani.it/enciclopedia/raibolini-francesco-detto-il-francia_%28Dizionario-Biografico%29/" target="_blank">"Il Francia"<sup>Treccani</sup></a></b></li>
+						    				<li class="list-group-item"><span>Data</span>: <b>1508</b></li>
+						    				<li class="list-group-item"><span>N.Inventario</span>:<b>570</b></span></li>
+						    				<li class="list-group-item"><span>Tipo di oggetto:</span>:<b><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=painting&i=2&h=10000000000#c" target="_blank"> dipinto < arti grafiche<sup>WordNet</sup></a> <a href="https://udcsummary.info/php/index.php?id=64676&lang=en" target="_blank">- 761 Relief techniques < graphic art<sup>UCD</sup></a></b></li>
+						    				<li class="list-group-item"><span>Soggetto</span>:<b><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=vision&i=8&h=000100010#c" target="_blank">visione < esperienza<sup>WordNet</sup></a>,<a href="https://it.wikipedia.org/wiki/Mistica">misticismo<sup>Wikipedia</sup></a></b></li>
+						    				<li class="list-group-item"><span>Materiale</span>:<a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=oil&i=9&h=011101100000000#c"target="_blank"><b>olio su tela < dipinto < materiale<sup>WordNet</sup></b></a></li>
+						    				<li class="list-group-item"><span>Dimensioni</span>: <b>52x168,8</b></li>
+						    				<li class="list-group-item"><span>Descrizione:</span>: <b>A destra Sant'Agostino ha la visione della Madonna che allatta e di Gesù sulla croce. Un piccolo gioiello di perfezione formale per il sapiente ritmo compositivo con cui sono uniti i due episodi, per lo smalto dei colori e la saldezza volumetrica delle figure<sup>PNB</b></li>
+						    				<li class="list-group-item"><span>Istituto di conservazione</span>:<b><a href="https://www.pinacotecabologna.beniculturali.it/it/le-collezioni" target="_blank">Pinacoteca Nazionale, Bologna</a>, <a href="https://www.geonames.org/10278932/pinacoteca-nazionale-di-bologna.html" target="_blank">10278932 S MUS museum<sup>GeoNames</sup></a></b></li>
+						    				<li class="list-group-item"><span>Provenienza</span>:<b>Misericordia, cappella Zambeccari già  Gozzadini, Bologna</b></li>
+						    				<li class="list-group-item"><span>Ente fornitore</span>:<b><a href="https://www.pinacotecabologna.beniculturali.it/it/le-collezioni" target="_blank">Pinacoteca Nazionale, Bologna</a></b></li>
+						    				<li class="list-group-item"><span>Codice identificativo ICCD</span>:</br> <a href="#" data-bs-toggle= "tooltip" title="L'oggetto non ha ancora un codice ID sul catalogo nazionale. Permalink non accessibile."><b>Non ancora classificato<i class="bi bi-exclamation-triangle"></i></b></a></li>
+						  				</ul>
+  									</div>
+								</div>
+  						</div>
+					</div>
+					<div class="card-group">
+	 						 <div class="card">
+			    			 		<div class="card-body">
+			      			 				<h3 class="card-title aside">Ricerca sul testo</em></h5>
+			      			 				<p><iframe style='width: 320px; height: 300px;' src='https://voyant-tools.org/tool/Trends/?query=in&query=quia&query=ut&query=erat&query=per&mode=document&corpus=3ede21ba28d5a167776bd3dc6359326d'></iframe></p>
+			      			 				<p>Fai una ricerca sulle parole del testo: il grafico mostra le parole più attestate nel frammento, utile ai fini delle concordanze nella collatio filologica.</p>
+			      			 		</div>
+		    				 </div>
+	  				</div>
+				</div>
+			</div>
+		</section>
+				<footer>
+			<div class="container-fluid" id="footer">
+				<div class="row">
+					<div class="col-2">
+						<div class="button-go-top">
+							<a href="#top"><button type="button" class="btn btn-secondary go-top"><i class="bi bi-arrow-up-circle">Torna su</i></button></a>
+						</div>
+					</div>
+					<div class="col-4">
+	                	<div>
+	                		<p class="licenza"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Il progetto dispone di licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+	                		</p>
+	                	</div>
+					</div>
+					<div class="col-4">
+							<div id="contatti"><button type="button" class="btn btn-primary bottone-attivo" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Form contatti<i class="bi bi-envelope"></i></button>
+							<p class="licenza">Progetto di DHCH realizzato da <br/>Giuseppe Galtieri & Lucia Pia Caputo,<br/> in collaborazione con <a href="https://www.archivio-arcivescovile-bo.it/" target="_blank">Archivio Arcivescovile di Bologna</a> & <a href="https://www.unibo.it/it" target="_blank">Università di Bologna</a>.</p>
+							</div>
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Nuovo messaggio</h5>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body">
+						        <form>
+						          <div class="mb-3">
+						            <label for="recipient-name" class="col-form-label">Nome utente:</label>
+						            <input type="text" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="mb-3">
+						            <label for="message-text" class="col-form-label">Messaggio:</label>
+						            <textarea class="form-control" id="message-text"></textarea>
+						          </div>
+						        </form>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary bottone-attivo" data-bs-dismiss="modal">Annulla</button>
+						        <button type="button" class="btn btn-primary bottone-attivo">Invia</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+						<div class="col-3">
+						</div>
+					</div>
+				</div>
+			</div>	
+		</footer>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+    	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  		return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+	</body>
+</html>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.2/document.xsd">
+     <teiHeader>
+          <fileDesc>
+               <titleStmt>
+               <title>Trattato sul Vangelo di Giovanni</title>
+               </titleStmt>
+          <editionStmt>
+          <edition>Electronic version according to TEI P5.1</edition>
+          </editionStmt>
+          <publicationStmt>
+               <publisher>Re-Fragmenta: progetto di DHCH</publisher>
+               <availability status="openedition">
+               <licence>
+               <p>cc-by</p>
+               </licence>
+               </availability>
+          </publicationStmt>
+          <msDesc xml:lang="ita">
+               <msIdentifier>
+                    <settlement>Bologna</settlement>
+                    <repository>Archivio Generale Arcivescovile</repository>
+                    <idno>Consorzio Clero Urbano,  II C4, 22</idno>
+               </msIdentifier>
+               <head>
+                    <title>Trattato sul Vangelo di Giovanni</title>
+                    <origDate>XIII</origDate>
+                    <origPlace>Bologna</origPlace>
+               </head>
+               <msContents>
+                    <msItem>
+                         <locus from="47381">4/5.5</locus>
+                         <textLang>Latino</textLang>
+                         <title>Trattato sul Vangelo di Giovanni
+                         </title>
+                         <note type="persons">Agostino
+                         </note>
+                         <note type="persons">Giovanni, evangelista
+                         </note>
+                         <note type="description">Bifoglio contenente una prozione del testo del Trattato di San Giovanni. si caratterizza per una ricca miniatura.
+                         </note>
+                    </msItem>
+               </msContents>
+               <physDesc>
+                    <objectDesc form="Fragment">
+                    <supportDesc>
+                    <support>
+                    <material>pergamena</material>
+                    </support>
+                         <extent>
+                              <dimensions type="leaf_orig">
+                                   <width min="313">313</width>
+                                   <height min="313">483</height>
+                              </dimensions>
+                              <dimensions type="written_orig">
+                                   <width min="230">230</width>
+                                   <height min="360">360</height>
+                              </dimensions>
+                              <measure type="pageDimensions">483x313mm</measure>
+                         </extent>
+                         <condition>
+                              <p>
+                                Lo stato di conservazione della pergamena si presenta complessivamente buono, sebbene mostri un leggero ringrizimento sull’intera superficie, una lieve ondulazione su un solo lato del supporto e isolate macchie di inchiostro più scuro e isolate macchie di umidità.   
+                              </p>
+                         </condition>
+                    </supportDesc>
+                    <layoutDesc>
+                         <layout writtenLines="20" columns="2">a secco</layout>
+                         <layout>
+                              <dimensions type="line">
+                                   <height min="7" max="7">7</height>
+                              </dimensions>
+                         </layout>
+                    </layoutDesc>
+                    <handDesc>
+                         <p>Gotica textualis
+                         </p>
+                    </handDesc>
+                    <decoDesc>
+                         <p>Miniatura di pennello a carattere zoomorfo, realizzata con pittura a guazzo.
+                         </p>
+                    </decoDesc>
+                    <history>
+                         <summary><p>Commento al Vangelo di Giovanni costituito da omelie, facente parte della raccolta dei Discorsi</p>
+                         </summary>
+                    </history>
+                    </objectDesc>
+               </physDesc>
+          </msDesc>
+               <sourceDesc>frammento pergamenaceo del Tractatus ad Iohannis evangelium</sourceDesc>
+          </fileDesc>
+     </teiHeader>
+     <text>
+          <body>
+               <div type="capitolo" id="33">
+               <p>cum igitur deus uobis genitor non sit nec aqua baptismatis uera <emph>nascamini</emph>, nemo uestrum penitus natus est nec patrem habetis impii nec matrem.</p>
+               <p>uos ergo huiusmodi non debeo <reg orig="battizzare">baptizare</reg>, etsi, ut carnem iudaei quasi <reg orig="battizzare">baptizant</reg>, milies uos lauetis?
+               <hi>augustinus</hi> respondit: <mentioned><q type="diretto">certe proposueras plene discutere baptismum trinitatis <abbr expan="et">7</abbr> intentos nos multum feceras; sed scilicet, <abbr expan="quod">quod</abbr> uobis facillimum est, quam cito ad solita maledicta uertisti.</q></mentioned></p>
+               <p>hoc reuera copiose facis.</p>
+               <p>proponis enim tibi quos uis, in quos inueharis quantum uis; in qua magna sermonis latitudine uno breuissimo uerbo quod dicitur proba in artissimas <gap desc="coartaris">[---]</gap> angustias.</p>
+               <p>hoc enim tibi dicit semen <hi>abrahae</hi>, in quo cum omnes gentes benedicuntur non curant cum a te maledicuntur.</p>
+               </div>
+          </body>
+          <back>
+               <note type="commento" resp="Accursio"><!--testo di commento di Accursio-->
+               </note>
+          </back>
+     </text>
+</TEI>
+

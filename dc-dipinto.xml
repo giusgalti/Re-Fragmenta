@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedObject xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<item n="2" xml:id="two">
+		<dc:identifier type="Pinacoteca-Nazionale-Bologna">570</dc:identifier>
+		<dc:title>Visione di Sant'Agostino</dc:title>
+		<dc:creator>Francesco Raibolini, Il Francia</dc:creator>
+		<dc:date>1508</dc:date>
+		<dc:type>olio su tavola</dc:type>
+		<dc:type>dipinto</dc:type>
+		<dc:subject>quadro</dc:subject>
+		<dc:subject>visione</dc:subject>
+		<dc:subject>scene-vita-Gesù</dc:subject>
+		<dc:description>Pervenuto dalla chiesa agostiniana di Santa Maria della Misericordia, rappresenta a destra Sant'Agostino che ha la visione della Madonna che allatta e di Gesù sulla croce. Si tratta di un piccolo gioiello di perfezione formale per il sapiente ritmo compositivo con cui sono uniti i due episodi, per bellezza del limpido paesaggio, per lo smalto dei colori e la saldezza volumetrica delle figure, ognuna caratterizzata da un gesto vivace.</dc:description>
+		<dc:format>olio su tavola</dc:format>
+		<dc:format type="tecnica">pittura a olio</dc:format>
+		<dc:format type="extent">52x168,8mm</dc:format>
+		<dc:contributor>Ministero della Cultura</dc:contributor>
+		<dc:coverage>Bologna</dc:coverage>
+		<dc:source>Pinacoteca Nazionale, Bologna</dc:source>
+		<dc:publisher>Pinacoteca Nazionale, Bologna</dc:publisher>
+		<dc:relation>http://catalogo.fondazionezeri.unibo.it/scheda/opera/30508/Raibolini%20Francesco%2C%20Visione%20di%20sant%27Agostino</dc:relation>
+		<dc:provenance type="precedente">Misericordia, cappella Zambeccari già  Gozzadini</dc:provenance>
+		<dc:provenance type="attuale">Pinacoteca Nazionale, Bologna</dc:provenance>
+		<dc:right>Pinacoteca Nazionale, Bologna</dc:right>
+	</item>
+</RelatedObject>
