@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RelatedObject:metadata xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://giusgalti.github.io/Re-Fragmenta/ https://giusgalti.github.io/Re-Fragmenta/schema.xsd">
+<mp:metadata xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://giusgalti.github.io/Re-Fragmenta/ https://giusgalti.github.io/Re-Fragmenta/schema.xsd">
 	<item n="1" xml:id="one">
 		<dc:identifier type="CollezioniUniversitarie">2551</dc:identifier>
 		<dc:title>Arca di Giovanni da Legnano</dc:title>
@@ -27,4 +27,4 @@
 		<dc:provenance xsi:type="mp:GeoNames" mp:ref="https://www.geonames.org/12032365/museo-civico-medievale.html">Museo Civico Medievale, Bologna</dc:provenance>
 		<dc:right>Musei Civico Medievale, Bologna</dc:right>
 	</item>
-</RelatedObject>
+</mp:metadata>

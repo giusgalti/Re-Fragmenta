@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RelatedObject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://giusgalti.github.io/Re-Fragmenta/ https://giusgalti.github.io/Re-Fragmenta/schema.xsd">
+<mp:metadata xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://giusgalti.github.io/Re-Fragmenta/ https://giusgalti.github.io/Re-Fragmenta/schema.xsd">
 	<item n="2" xml:id="two">
 		<dc:identifier type="Pinacoteca-Nazionale-Bologna">570</dc:identifier>
 		<dc:title>Visione di Sant'Agostino</dc:title>
@@ -14,15 +14,15 @@
 		<dc:subject>248.2</dc:subject> <!--Religious experience-->
 		<dc:description>Pervenuto dalla chiesa agostiniana di Santa Maria della Misericordia, rappresenta a destra Sant'Agostino che ha la visione della Madonna che allatta e di Gesù sulla croce. Si tratta di un piccolo gioiello di perfezione formale per il sapiente ritmo compositivo con cui sono uniti i due episodi, per bellezza del limpido paesaggio, per lo smalto dei colori e la saldezza volumetrica delle figure, ognuna caratterizzata da un gesto vivace.</dc:description>
 		<dc:format>olio su tavola</dc:format>
-		<dc:format type="tecnica" xsi:type="dcterms:LCSH"mp:ref="http://id.loc.gov/authorities/subjects/sh85096661">pittura a olio</dc:format> 
+		<dc:format type="tecnica" xsi:type="dcterms:LCSH" mp:ref="http://id.loc.gov/authorities/subjects/sh85096661">pittura a olio</dc:format> 
 		<dc:format type="extent">52x168,8mm</dc:format>
 		<dc:contributor>Ministero della Cultura</dc:contributor>
-		<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003127>Bologna</dc:coverage>
+		<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003127">Bologna</dc:coverage>
 		<dc:source xsi:type="dcterms:URI" mp:ref="https://www.pinacotecabologna.beniculturali.it/it/">Pinacoteca Nazionale, Bologna</dc:source>
 		<dc:publisher xsi:type="dcterms:URI" mp:ref="https://www.pinacotecabologna.beniculturali.it/it/">Pinacoteca Nazionale, Bologna</dc:publisher>
-		<dc:relation>http://catalogo.fondazionezeri.unibo.it/scheda/opera/30508/Raibolini%20Francesco%2C%20Visione%20di%20sant%27Agostino</dc:relation>
+		<dc:relation xsi:type="dcterms:URI" mp:ref="http://catalogo.fondazionezeri.unibo.it/scheda/opera/30508/Raibolini%20Francesco%2C%20Visione%20di%20sant%27Agostino">Fondazione Zeri</dc:relation>
 		<dc:provenance type="precedente">Misericordia, cappella Zambeccari già  Gozzadini</dc:provenance>
 		<dc:provenance type="attuale" xsi:type="mp:GeoNames" mp:ref="https://www.geonames.org/10278932/pinacoteca-nazionale-di-bologna.html">Pinacoteca Nazionale, Bologna</dc:provenance>
 		<dc:right xsi:type="dcterms:URI" mp:ref="https://www.pinacotecabologna.beniculturali.it/it/">Pinacoteca Nazionale, Bologna</dc:right>
 	</item>
-</RelatedObject>
+</mp:metadata>
