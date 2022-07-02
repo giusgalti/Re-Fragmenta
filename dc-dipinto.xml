@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RelatedObject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="https://giusgalti.github.io/Re-Fragmenta/ https://giusgalti.github.io/Re-Fragmenta/schema.xsd">
+<RelatedObject xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://giusgalti.github.io/Re-Fragmenta/ https://giusgalti.github.io/Re-Fragmenta/schema.xsd">
 	<item n="2" xml:id="two">
 		<dc:identifier type="Pinacoteca-Nazionale-Bologna">570</dc:identifier>
 		<dc:title>Visione di Sant'Agostino</dc:title>
