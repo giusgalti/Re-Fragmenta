@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RelatedObject xmlns:dc="http://purl.org/dc/elements/1.1/">
+<RelatedObject:metadata xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="https://giusgalti.github.io/Re-Fragmenta/ https://giusgalti.github.io/Re-Fragmenta/schema.xsd">
 	<item n="1" xml:id="one">
 		<dc:identifier type="CollezioniUniversitarie">2551</dc:identifier>
 		<dc:title>Arca di Giovanni da Legnano</dc:title>
-		<dc:creator>Jacobello dalle Mesagne</dc:creator>
-		<dc:creator>Paolo dalle Mesagne</dc:creator>
-		<dc:date>1383</dc:date>
-		<dc:type>arca</dc:type>
+		<dc:creator xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/136159234565503372063/">Jacobello dalle Mesagne</dc:creator>
+		<dc:creator xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/23062269/">Pier Paolo dalle Mesagne</dc:creator>
+		<dc:date xsi:type="dcterms:W3CDTF">1383</dc:date>
+		<dc:type xsi:type="dcterms:LCSH" mp:ref="http://id.loc.gov/authorities/subjects/sh00006370">monumento sepolcrale</dc:type>
 		<dc:type>formella</dc:type>
-		<dc:subject>sepolcro</dc:subject>
-		<dc:subject>bassorilievo funerario</dc:subject>
-		<dc:subject>scene di scuola</dc:subject>
+		<dc:subject xsi:type="dcterms:DDC">393</dc:subject> <!--death customs-->
+		<dc:subject xsi:type="dcterms:DDC">734</dc:subject> <!--Sculpture from ca. 500 to 1399-->
+		<dc:subject xsi:type="dcterms:DDC">759</dc:subject> <!--Historical, areas, persons treatment-->
+		<dc:subject xsi:type="dcterms:DDC">757</dc:subject> <!--Human figures & their parts-->
+		<dc:subject xsi:type="dcterms:UDC">761</dc:subject> <!--Relief processes (Block printing)-->
 		<dc:description>Formella dell'arca del Dottore Giovanni da Legnano con rilievo figurato con un gruppo di studenti che guardano attentamentamente il maestro e seguono assorti la lezione. Variamente caratterizzati i volti delle figure umane, incorniciati da copricapi, raffinati i panneggi degli abiti.</dc:description>
-		<dc:format>marmo</dc:format>
-		<dc:format type="tecnica">bassorilievo</dc:format>
+		<dc:format xsi:type="dcterms:DDC">553.5</dc:format> <!--marmo-->
+		<dc:format type="tecnica" xsi:type="dcterms:DDC">761</dc:format> <!--Relief processes (Block printing)-->
 		<dc:format type="extent">63x76mm</dc:format>
 		<dc:contributor>Genus Bononiae-Musei nella città</dc:contributor>
-		<dc:coverage>Bologna</dc:coverage>
+		<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003127">Bologna</dc:coverage>
 		<dc:source>Wikipedia</dc:source>
-		<dc:publisher>Wikipedia</dc:publisher>
-		<dc:relation>URI:https://collezioni.genusbononiae.it/products/dettaglio/10879</dc:relation>
-		<dc:relation>URI:https://it.wikipedia.org/wiki/Universit%C3%A0_di_Bologna</dc:relation>
+		<dc:publisher xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Pagina_principale</dc:publisher>
+		<dc:relation xsi:type="dcterms:URI">https://collezioni.genusbononiae.it/products/dettaglio/10879</dc:relation>
+		<dc:relation xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Universit%C3%A0_di_Bologna</dc:relation>
 		<dc:relation>iscrizione funeraria della lapide</dc:relation>
-		<dc:provenance>Museo Civico Medievale, Bologna</dc:provenance>
+		<dc:provenance xsi:type="mp:GeoNames" mp:ref="https://www.geonames.org/12032365/museo-civico-medievale.html">Museo Civico Medievale, Bologna</dc:provenance>
 		<dc:right>Musei Civico Medievale, Bologna</dc:right>
 	</item>
 </RelatedObject>

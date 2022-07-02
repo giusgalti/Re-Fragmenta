@@ -553,7 +553,6 @@ text-decoration: underline;
 }
 span.glossed-word {
 color: green;
-text-decoration: underline;
 font-style: italic;
 }
 span.date {
@@ -565,6 +564,13 @@ span.work {
   color: orange;
   font-style: italic;
   text-decoration: underline;
+}
+span.p-title {
+  color: purple;
+  font-weight: bold;
+}
+span.omisit {
+  text-decoration: line-through;
 }
 
 .item-subtitle {

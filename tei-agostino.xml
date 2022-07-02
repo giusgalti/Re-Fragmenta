@@ -2,7 +2,7 @@
 <TEI
      xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.2/document.xsd">
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.2/document.xsd" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/">
      <teiHeader>
           <fileDesc>
                <titleStmt>
@@ -21,8 +21,8 @@
           </publicationStmt>
           <msDesc xml:lang="ita">
                <msIdentifier>
-                    <settlement>Bologna</settlement>
-                    <repository>Archivio Generale Arcivescovile</repository>
+                    <settlement xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003127">Bologna</settlement>
+                    <repository xsi:type="dcterms:GeoNames" mp:ref="https://www.geonames.org/11127226/cattedrale-metropolitana-di-san-pietro.html">Archivio Generale Arcivescovile</repository>
                     <idno>Consorzio Clero Urbano,  II C4, 22</idno>
                </msIdentifier>
                <head>
@@ -36,9 +36,9 @@
                          <textLang>Latino</textLang>
                          <title>Trattato sul Vangelo di Giovanni
                          </title>
-                         <note type="persons">Agostino
+                         <note type="persons" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/66806872/">Agostino
                          </note>
-                         <note type="persons">Giovanni, evangelista
+                         <note type="persons" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/102317020/">Giovanni, evangelista
                          </note>
                          <note type="description">Bifoglio contenente una prozione del testo del Trattato di San Giovanni. si caratterizza per una ricca miniatura.
                          </note>
@@ -48,7 +48,7 @@
                     <objectDesc form="Fragment">
                     <supportDesc>
                     <support>
-                    <material>pergamena</material>
+                    <material xsi:type="dcterms:DDC">685, pergamena</material>
                     </support>
                          <extent>
                               <dimensions type="leaf_orig">
@@ -75,12 +75,12 @@
                               </dimensions>
                          </layout>
                     </layoutDesc>
-                    <handDesc>
+                    <handDesc xsi:type="dcterms:LCSH" mp:ref="http://id.loc.gov/authorities/classification/NK8808.923">
                          <p>Gotica textualis
                          </p>
                     </handDesc>
-                    <decoDesc>
-                         <p>Miniatura di pennello a carattere zoomorfo, realizzata con pittura a guazzo.
+                    <decoDesc xsi:type="dcterms:DDC">
+                         <p>745.6 - Miniatura di pennello a carattere zoomorfo, realizzata con pittura a guazzo.
                          </p>
                     </decoDesc>
                     <history>
@@ -104,10 +104,6 @@
                <p>hoc enim tibi dicit semen <hi>abrahae</hi>, in quo cum omnes gentes benedicuntur non curant cum a te maledicuntur.</p>
                </div>
           </body>
-          <back>
-               <note type="commento" resp="Accursio"><!--testo di commento di Accursio-->
-               </note>
-          </back>
      </text>
 </TEI>
 

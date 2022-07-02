@@ -2,7 +2,7 @@
 <TEI
      xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.2/document.xsd">
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.2/document.xsd" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/">>
      <teiHeader>
           <fileDesc>
                <titleStmt>
@@ -21,8 +21,8 @@
           </publicationStmt>
           <msDesc xml:lang="ita">
                <msIdentifier>
-                    <settlement>Bologna</settlement>
-                    <repository>Archivio Generale Arcivescovile</repository>
+                    <settlement xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003127">Bologna</settlement>
+                    <repository xsi:type="dcterms:GeoNames" mp:ref="https://www.geonames.org/11127226/cattedrale-metropolitana-di-san-pietro.html">Archivio Generale Arcivescovile</repository>
                     <idno>Tribunale Rev. Fabbrica di S. Pietro in Roma- 120.65</idno>
                </msIdentifier>
                <head>
@@ -36,9 +36,9 @@
                          <textLang>Latino</textLang>
                          <title>Digesto con glosse di Accursio
                          </title>
-                         <note type="persons">Giustiniano
+                         <note type="persons" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/88881722/">Giustiniano
                          </note>
-                         <note type="persons">Accursio
+                         <note type="persons" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/102317020/">Accursio
                          </note>
                          <note type="description">Foglio riutilizzato come coperta di registro di ricevute per messe officiate degli anni '30 del XVII secolo.Presenza di glosse marginali strutturate a cornice del testo principale con la stessa scrittura; annotazioni correnti in rotunda di modulo ridotto dislocate nel margine inferiore.
                          </note>
@@ -48,7 +48,7 @@
                     <objectDesc form="Fragment">
                     <supportDesc>
                     <support>
-                    <material>pergamena</material>
+                    <material xsi:type="dcterms:DDC">685, pergamena</material>
                     </support>
                          <extent>
                               <dimensions type="leaf_orig">
@@ -75,7 +75,7 @@
                               </dimensions>
                          </layout>
                     </layoutDesc>
-                    <handDesc>
+                    <handDesc xsi:type="dcterms:LCSH" mp:ref="http://id.loc.gov/authorities/classification/NK8808.923">
                          <p>Gotica textualis (fort. Bononiensis) con alternanza di modulo nei capilettera e nelle glosse di commento.
                          </p>
                          <handNote>
@@ -84,8 +84,8 @@
                               </p>
                          </handNote>
                     </handDesc>
-                    <decoDesc>
-                         <p>Decorazione filigranata, colonnina con nodi in alternanza cromatica blu-arancio-argento, con motivi fitomorfi agli estremi e bottoni ornamentali in oro. Capolettera P miniato in blu argento e arancio.
+                    <decoDesc xsi:type="dcterms:DDC">
+                         <p>745.7 -Decorazione filigranata, colonnina con nodi in alternanza cromatica blu-arancio-argento, con motivi fitomorfi agli estremi e bottoni ornamentali in oro. Capolettera P miniato in blu argento e arancio.
                          </p>
                     </decoDesc>
                     <history>
@@ -101,14 +101,22 @@
      <text>
           <body>
                <div id="rubrica IV">
-                         <target>quod <unclear reason="rasura">fere</unclear>, inquit <hi>Sabinus</hi></target>, evenit in personis mercatorum aut quotiens cella <abbr type="contrazione">est</abbr> olei et vini, quae venire solebant, in <term>hereditate</term> relicta.
+                         <target>quod <unclear reason="rasura">fere</unclear>, inquit <hi>Sabinus</hi></target>, evenit in personis mercatorum aut quotiens cella <abbr type="contrazione">est</abbr> olei et vini, quae venire solebant, in <ref><term>hereditate</term></ref> relicta.
                </div>[...]
-               <div id="rubrica II">Nec interest, cuius materiae sunt res, quae sunt in suppellectili. sed craterem argenteum non esse in <add place="interlinea">supellectili</add> nec ullum vas argenteum secundum saeculi severitatem nondum admittentis supellectilem argenteam hodie, propter usum imperitorum si in argento relatum sit candelabrum argenteum, argenti esse videtur, et error ius facit.
+               <div id="rubrica III">
+                    <p>
+                         <title type="subordinato"><hi>Paulus</hi> libro quarto ad <hi>Sabinum</hi></title>.
+                         <mentioned> Suppellectili legata haec continentur: 
+                              <gloss target="suppellectili"><term>mensae</term>, <term>trapezophora</term>, <reg orig="delfice">delficae</reg>, subsellia, scamna, lecti etiam inargentati, culcitae, toralia, imperia , vasa aquaria, pelves, aquiminalia, <gap desc="candelabra, lucernae, trulla">[---]</gap></gloss>
+                              <p>Nec interest, cuius materiae sunt res, quae sunt in suppellectili. sed craterem argenteum non <abbr type="contrazione">esse</abbr> in <add place="interlinea">supellectili</add> nec ullum vas argenteum secundum saeculi severitatem nondum admittentis supellectilem argenteam hodie, propter usum imperitorum si in argento relatum sit candelabrum argenteum, argenti esse videtur, et error <term>ius</term> facit.
+                              </p>
+                         </mentioned>
+                    </p>
                </div>
-               
           </body>
           <back>
-               <note type="commento" resp="Accursio"><!--testo di commento di Accursio-->
+               <note type="commento" resp="Accursio">
+                    <!--testo di commento di Accursio cui rimanda l'elemento ref-->
                </note>
           </back>
      </text>
