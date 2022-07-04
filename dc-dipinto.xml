@@ -3,15 +3,15 @@
 	<item n="2" xml:id="two">
 		<dc:identifier type="Pinacoteca-Nazionale-Bologna">570</dc:identifier>
 		<dc:title>Visione di Sant'Agostino</dc:title>
-		<dc:creator xsi:type="mp:viaf" mp:ref="http://viaf.org/viaf/125159234567703372071">Francesco Raibolini, Il Francia</dc:creator>
+		<dc:creator xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/293063947/">Francesco Raibolini, Il Francia</dc:creator>
 		<dc:date xsi:type="dcterms:W3CDTF">1508</dc:date>
 		<dc:type>olio su tavola</dc:type>
 		<dc:type xsi:type="dcterms:DDC">750</dc:type> <!--dipinto-->
 		<dc:subject>quadro</dc:subject>
 		<dc:subject>visione</dc:subject>
-		<dc:subject>scene-vita-Gesù</dc:subject>
-		<dc:subject>291.1</dc:subject> <!-- Religious mythology, social theology, interreligious relations and attitudes-->
-		<dc:subject>248.2</dc:subject> <!--Religious experience-->
+		<dc:subject xsi:type="dcterms:LCSH" mp:ref="https://id.loc.gov/authorities/subjects/sh85070124.html">scene-vita-Gesù</dc:subject>
+		<dc:subject xsi:type="dcterms:DDC">291.1</dc:subject> <!-- Religious mythology, social theology, interreligious relations and attitudes-->
+		<dc:subject xsi:type="dcterms:DDC">248.2</dc:subject> <!--Religious experience-->
 		<dc:description>Pervenuto dalla chiesa agostiniana di Santa Maria della Misericordia, rappresenta a destra Sant'Agostino che ha la visione della Madonna che allatta e di Gesù sulla croce. Si tratta di un piccolo gioiello di perfezione formale per il sapiente ritmo compositivo con cui sono uniti i due episodi, per bellezza del limpido paesaggio, per lo smalto dei colori e la saldezza volumetrica delle figure, ognuna caratterizzata da un gesto vivace.</dc:description>
 		<dc:format>olio su tavola</dc:format>
 		<dc:format type="tecnica" xsi:type="dcterms:LCSH" mp:ref="http://id.loc.gov/authorities/subjects/sh85096661">pittura a olio</dc:format> 

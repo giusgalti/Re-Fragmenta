@@ -13,7 +13,7 @@
           </editionStmt>
           <publicationStmt>
                <publisher>Re-Fragmenta: progetto di DHCH</publisher>
-               <availability status="openedition">
+               <availability status="open-edition">
                <licence>
                <p>cc-by</p>
                </licence>
@@ -32,15 +32,15 @@
                </head>
                <msContents>
                     <msItem>
-                         <locus from="47381">4/5.5</locus>
+                         <locus>imprecisato in fogli</locus>
                          <textLang>Latino</textLang>
-                         <title>Trattato sul Vangelo di Giovanni
+                         <title>Omelia seconda
                          </title>
                          <note type="persons" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/66806872/">Agostino
                          </note>
                          <note type="persons" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/102317020/">Giovanni, evangelista
                          </note>
-                         <note type="description">Bifoglio contenente una prozione del testo del Trattato di San Giovanni. si caratterizza per una ricca miniatura.
+                         <note type="description">Bifoglio contenente una porzione del testo del Trattato sul Vangelo di San Giovanni. Si caratterizza per una ricca miniatura policroma.
                          </note>
                     </msItem>
                </msContents>
@@ -48,7 +48,7 @@
                     <objectDesc form="Fragment">
                     <supportDesc>
                     <support>
-                    <material xsi:type="dcterms:DDC">685, pergamena</material>
+                    <material xsi:type="dcterms:DDC">685 <!--pergamena--></material>
                     </support>
                          <extent>
                               <dimensions type="leaf_orig">
@@ -79,8 +79,8 @@
                          <p>Gotica textualis
                          </p>
                     </handDesc>
-                    <decoDesc xsi:type="dcterms:DDC">
-                         <p>745.6 - Miniatura di pennello a carattere zoomorfo, realizzata con pittura a guazzo.
+                    <decoDesc xsi:type="dcterms:DDC">745.6 <!--illumination-->
+                         <p>Miniatura di pennello a carattere zoomorfo, realizzata con pittura a guazzo.
                          </p>
                     </decoDesc>
                     <history>

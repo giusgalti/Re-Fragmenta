@@ -23,6 +23,7 @@
 		<dc:publisher xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Pagina_principale</dc:publisher>
 		<dc:relation xsi:type="dcterms:URI">https://collezioni.genusbononiae.it/products/dettaglio/10879</dc:relation>
 		<dc:relation xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Universit%C3%A0_di_Bologna</dc:relation>
+		<dc:relation xsi:type="dcterms:LCSH" mp:ref="https://id.loc.gov/resources/works/2168897.html">The medieval university; masters, students, learning.</dc:relation>
 		<dc:relation>iscrizione funeraria della lapide</dc:relation>
 		<dc:provenance xsi:type="mp:GeoNames" mp:ref="https://www.geonames.org/12032365/museo-civico-medievale.html">Museo Civico Medievale, Bologna</dc:provenance>
 		<dc:right>Musei Civico Medievale, Bologna</dc:right>

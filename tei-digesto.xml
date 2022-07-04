@@ -2,7 +2,7 @@
 <TEI
      xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.2/document.xsd" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/">>
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.2/document.xsd" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/">
      <teiHeader>
           <fileDesc>
                <titleStmt>
@@ -13,7 +13,7 @@
           </editionStmt>
           <publicationStmt>
                <publisher>Re-Fragmenta: progetto di DHCH</publisher>
-               <availability status="openedition">
+               <availability status="open-edition">
                <licence>
                <p>cc-by</p>
                </licence>
@@ -32,9 +32,9 @@
                </head>
                <msContents>
                     <msItem>
-                         <locus from="47381">4/5.5</locus>
+                         <locus>imprecisato in fogli</locus>
                          <textLang>Latino</textLang>
-                         <title>Digesto con glosse di Accursio
+                         <title>Libro 33, titoli IX-X
                          </title>
                          <note type="persons" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/88881722/">Giustiniano
                          </note>
@@ -48,7 +48,7 @@
                     <objectDesc form="Fragment">
                     <supportDesc>
                     <support>
-                    <material xsi:type="dcterms:DDC">685, pergamena</material>
+                    <material xsi:type="dcterms:DDC">685 <!--pergamena--></material> 
                     </support>
                          <extent>
                               <dimensions type="leaf_orig">
@@ -84,8 +84,8 @@
                               </p>
                          </handNote>
                     </handDesc>
-                    <decoDesc xsi:type="dcterms:DDC">
-                         <p>745.7 -Decorazione filigranata, colonnina con nodi in alternanza cromatica blu-arancio-argento, con motivi fitomorfi agli estremi e bottoni ornamentali in oro. Capolettera P miniato in blu argento e arancio.
+                    <decoDesc xsi:type="dcterms:DDC">745.7 <!--docorating color-->
+                         <p>Decorazione filigranata, colonnina con nodi in alternanza cromatica blu-arancio-argento, con motivi fitomorfi agli estremi e bottoni ornamentali in oro. Capolettera P miniato in blu argento e arancio.
                          </p>
                     </decoDesc>
                     <history>

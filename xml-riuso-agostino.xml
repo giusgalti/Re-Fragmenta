@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<descrittori-riuso xmlns="https://giusgalti.github.io/Re-Fragmenta/xml/descrittori-riuso" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://giusgalti.github.io/Re-Fragmenta/xml/descrittori-riuso descrittori-riuso.xsd">
+<mp:descrittori-riuso xmlns:mp="https://giusgalti.github.io/Re-Fragmenta/xml/descrittori-riuso" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://giusgalti.github.io/Re-Fragmenta/xml/descrittori-riuso descrittori-riuso.xsd">
      <titolo>Libro di conti del Consorzio di Porta Ravegnana</titolo>
      <data>1548</data>
-     <provenienza>Bologna, Consorzio di Porta Ravegna</provenienza>
+     <provenienza>Bologna, Consorzio di Porta Ravegnana</provenienza>
      <fondo>Bologna, Consorzio Clero Urbano</fondo>
      <tipo-riuso>coperta</tipo-riuso>
      <note-avventizie>calcoli</note-avventizie>
-</descrittori-riuso>
+</mp:descrittori-riuso>
