@@ -101,12 +101,16 @@
      <text>
           <body>
                <div id="rubrica IV">
-                         <target>quod <unclear reason="rasura">fere</unclear>, inquit <hi>Sabinus</hi></target>, evenit in personis mercatorum aut quotiens cella <abbr type="contrazione">est</abbr> olei et vini, quae venire solebant, in <ref><term>hereditate</term></ref> relicta.
+                         <target>quod <unclear reason="rasura">fere</unclear>, inquit <person xml:id="SS"><persName><hi>Sabinus</hi></persName></person></target>, evenit in personis mercatorum aut quotiens cella <abbr type="contrazione">est</abbr> olei et vini, quae venire solebant, in <ref><term>hereditate</term></ref> relicta.
                </div>[...]
                <div id="rubrica III">
                     <p>
-                         <title type="subordinato"><hi>Paulus</hi> libro quarto ad <hi>Sabinum</hi></title>.
-                         <mentioned> Suppellectili legata haec continentur: 
+                         <title type="subordinato">
+                              <person xml:id="PS">
+                                   <persName><hi>Paulus</hi>
+                                   </persName>
+                              </person> libro quarto ad <person xml:id="SS"><persName><hi>Sabinum</hi></persName></person></title>.
+                              <mentioned> Suppellectili legata haec continentur: 
                               <gloss target="suppellectili"><term>mensae</term>, <term>trapezophora</term>, <reg orig="delfice">delficae</reg>, subsellia, scamna, lecti etiam inargentati, culcitae, toralia, imperia , vasa aquaria, pelves, aquiminalia, <gap desc="candelabra, lucernae, trulla">[---]</gap></gloss>
                               <p>Nec interest, cuius materiae sunt res, quae sunt in suppellectili. sed craterem argenteum non <abbr type="contrazione">esse</abbr> in <add place="interlinea">supellectili</add> nec ullum vas argenteum secundum saeculi severitatem nondum admittentis supellectilem argenteam hodie, propter usum imperitorum si in argento relatum sit candelabrum argenteum, argenti esse videtur, et error <term>ius</term> facit.
                               </p>

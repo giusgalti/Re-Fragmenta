@@ -98,10 +98,10 @@
                <div type="capitolo" id="33">
                <p>cum igitur deus uobis genitor non sit nec aqua baptismatis uera <emph>nascamini</emph>, nemo uestrum penitus natus est nec patrem habetis impii nec matrem.</p>
                <p>uos ergo huiusmodi non debeo <reg orig="battizzare">baptizare</reg>, etsi, ut carnem iudaei quasi <reg orig="battizzare">baptizant</reg>, milies uos lauetis?
-               <hi>augustinus</hi> respondit: <mentioned><q type="diretto">certe proposueras plene discutere baptismum trinitatis <abbr expan="et">7</abbr> intentos nos multum feceras; sed scilicet, <abbr expan="quod">quod</abbr> uobis facillimum est, quam cito ad solita maledicta uertisti.</q></mentioned></p>
+               <person xml:id="AS"><persName><hi>augustinus</hi></persName></person> respondit: <mentioned><q type="diretto">certe proposueras plene discutere baptismum trinitatis <abbr expan="et">7</abbr> intentos nos multum feceras; sed scilicet, <abbr expan="quod">quod</abbr> uobis facillimum est, quam cito ad solita maledicta uertisti.</q></mentioned></p>
                <p>hoc reuera copiose facis.</p>
                <p>proponis enim tibi quos uis, in quos inueharis quantum uis; in qua magna sermonis latitudine uno breuissimo uerbo quod dicitur proba in artissimas <gap desc="coartaris">[---]</gap> angustias.</p>
-               <p>hoc enim tibi dicit semen <hi>abrahae</hi>, in quo cum omnes gentes benedicuntur non curant cum a te maledicuntur.</p>
+               <p>hoc enim tibi dicit semen <person xml:id="AB"><persName><hi>abrahae</hi></persName></person>, in quo cum omnes gentes benedicuntur non curant cum a te maledicuntur.</p>
                </div>
           </body>
      </text>
